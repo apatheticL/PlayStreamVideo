@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="2dp"
+    android:gravity="center"
+    android:id="@+id/bvp_include_relativelayout"
+    android:orientation="horizontal"
+    android:background="#80000000">
+    <ImageButton
+        android:id="@+id/exo_rew"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/bvp_button_next_back_width"
+        android:layout_height="@dimen/bvp_button_next_back_height"
+        android:layout_marginLeft="12dp"
+        android:background="@null"
+        android:src="@drawable/ic_backwards"
+        />
+
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="7dp"
+        android:layout_width="@dimen/bvp_button_pause_play_size"
+        android:layout_height="@dimen/bvp_button_pause_play_height"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/ic_plays"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnForward"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:layout_marginRight="4dp"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/bvp_button_next_back_width"
+        android:layout_height="@dimen/bvp_button_next_back_height"
+        android:background="@null"
+        android:src="@drawable/ic_forwards"
+        />
+
+    <SeekBar
+        android:id="@+id/seeker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:layout_weight="1"
+        android:splitTrack="false"
+        android:progressDrawable="@drawable/background_seebar"
+        android:maxHeight="4dp"
+        android:minHeight="4dp"
+        android:thumb="@drawable/custom_thumb" />
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/btnSalary"
+        android:layout_width="@dimen/bvp_button_size"
+        android:layout_height="@dimen/bvp_button_size"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/ic_path_1"
+        tools:ignore="ContentDescription"
+        />
+    <ImageButton
+        android:id="@+id/btnReplay"
+        android:visibility="visible"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="4dp"
+        android:layout_width="@dimen/bvp_button_size"
+        android:layout_height="@dimen/bvp_button_size"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/ic_repeat"
+        tools:ignore="ContentDescription"
+        />
+    <ImageButton
+
+        android:id="@+id/btnFullScreen"
+        android:paddingHorizontal="7dp"
+        android:paddingVertical="7dp"
+        android:layout_width="@dimen/bvp_button_size"
+        android:layout_height="@dimen/bvp_button_size"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/ic_fullscreens"
+        tools:ignore="ContentDescription"
+        />
+</LinearLayout>

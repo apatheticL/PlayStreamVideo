@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bvp_button_size">32dp</dimen>
+    <dimen name="bvp_button_next_back_width">32dp</dimen>
+    <dimen name="bvp_button_next_back_height">24dp</dimen>
+    <dimen name="bvp_button_pause_play_size">32dp</dimen>
+    <dimen name="bvp_button_pause_play_height">32dp</dimen>
+</resources>
